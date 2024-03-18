@@ -1,0 +1,29 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 17 Mar 2024 22:39:54 at https://distinguishedbroker.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://distinguishedbroker.com/ -O1 "C:\Users\ihena\OneDrive\Desktop\My Web Sites\broker-website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:48:47	Warning: 	Retry after error -4 (Connect Error) at link https://s3.tradingview.com/external-embedding/embed-widget-screener.js (from https://distinguishedbroker.com/)
+22:48:48	Error: 	"Not Found" (404) at link https://distinguishedbroker.com/service-details.html (from https://distinguishedbroker.com/)
+22:48:48	Warning: 	Retry after error -4 (Incorrect length (1408995 Bytes, 1512043 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/asets/images/pictures_7.jpg (from https://distinguishedbroker.com/)
+22:49:06	Warning: 	Retry after error -4 (Incorrect length (950272 Bytes, 7681764 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/blue/images/slider/rep_profile.pdf (from https://distinguishedbroker.com/)
+22:49:10	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 9659 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/js/isotope.pkgd.min.js (from https://distinguishedbroker.com/)
+22:49:12	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/pnw89o7opmubipyrpot0lw8tq0gsrjaq.js (from https://distinguishedbroker.com/)
+22:49:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://distinguishedbroker.com/assets/templates/minimal/asets/fonts/fa-brands-400.eot (from https://distinguishedbroker.com/assets/templates/minimal/asets/css/plugins/font-awesome.min.css)
+22:49:15	Warning: 	Retry after error -4 (Incorrect length (786374 Bytes, 997031 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/css/img/footer.png (from https://distinguishedbroker.com/assets/templates/minimal/css/main.css)
+22:49:15	Warning: 	Retry after error -4 (Incorrect length (294912 Bytes, 1380535 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/asets/images/pictures_9.jpg (from https://distinguishedbroker.com/user/login)
+22:49:24	Warning: 	Retry after error -4 (Connect Error) at link https://s3.tradingview.com/external-embedding/embed-widget-screener.js (from https://distinguishedbroker.com/)
+22:49:58	Warning: 	Retry after error -4 (Incorrect length (1081344 Bytes, 7681764 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/blue/images/slider/rep_profile.pdf (from https://distinguishedbroker.com/)
+22:49:58	Error: 	"Not Found" (404) at link https://distinguishedbroker.com/popper.js (from https://distinguishedbroker.com/assets/templates/minimal/js/bootstrap.min.js)
+22:49:58	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/pnw89o7opmubipyrpot0lw8tq0gsrjaq.js (from https://distinguishedbroker.com/)
+22:49:58	Warning: 	Retry after error -4 (Incorrect length (868323 Bytes, 1380535 expected)) at link https://distinguishedbroker.com/assets/templates/minimal/asets/images/pictures_9.jpg (from https://distinguishedbroker.com/user/login)
+22:49:58	Error: 	"Connect Error" (-4) after 2 retries at link https://s3.tradingview.com/external-embedding/embed-widget-screener.js (from https://distinguishedbroker.com/)
+22:49:59	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://distinguishedbroker.com/assets/templates/minimal/blue/images/slider/rep_profile.pdf (from https://distinguishedbroker.com/)
+22:49:59	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://code.tidio.co:443/pnw89o7opmubipyrpot0lw8tq0gsrjaq.js (from https://distinguishedbroker.com/)
+22:49:59	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://distinguishedbroker.com/assets/templates/minimal/asets/images/pictures_9.jpg (from https://distinguishedbroker.com/user/login)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 minutes 5 seconds : 226 links scanned, 207 files written (23929333 bytes overall) [19224877 bytes received at 31776 bytes/sec], 10368539 bytes transferred using HTTP compression in 128 files, ratio 34%, 2.5 requests per connection
+(6 errors, 12 warnings, 0 messages)

@@ -1468,7 +1468,7 @@ footer .footer-bottom {
     font-size: 18px;
     line-height: 24px;
     margin-top: -5px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--nunito);
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     transition: all ease 0.3s;
@@ -3010,7 +3010,7 @@ html * {
     margin-top: -7px;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--nunito);
     text-transform: capitalize;
     margin-bottom: 14px;
 }
@@ -4129,7 +4129,7 @@ html * {
 }
 
 .terms-content .item ul li::before {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--nunito);
     content: "0" counter(bela) ".";
     font-size: 16px;
     font-weight: 400;
@@ -6193,7 +6193,7 @@ html * {
 
 .post-item .post-content .entry-content .author .author-cont a {
     color: #777777;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--nunito);
 }
 
 @media screen and (min-width: 420px) {

@@ -3230,13 +3230,15 @@ hr {
   border-bottom: 1px solid #cacdd3;
 }
 .pricing-head .title {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-family: var(--poppins);
   font-weight: 500;
   color: #1c1c1c;
+  text-align: center;
 }
 .pricing-head .value {
   display: flex;
+  justify-content: center;
   align-items: baseline;
   margin: 30px 0 30px;
 }
@@ -3276,9 +3278,11 @@ hr {
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 0;
+  text-align: center;
 }
 .pricing-list li {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -3295,9 +3299,12 @@ hr {
   font-family: var(--nunito);
   line-height: 1.5;
   margin-bottom: 0px;
+  margin-left: .5rem;
 }
 .pricing-footer {
   margin-top: 30px;
+  margin-inline: auto;
+  width: fit-content;
 }
 
 /* FAQ */

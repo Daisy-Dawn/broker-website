@@ -4100,7 +4100,7 @@ hr {
   padding: 100px 110px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4170,6 +4170,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .work-banner .section-head {
     width: 70%;
+
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

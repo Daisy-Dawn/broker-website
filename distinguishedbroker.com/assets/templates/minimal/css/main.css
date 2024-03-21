@@ -4536,8 +4536,8 @@ html * {
     height: 100%;
     position: fixed;
     z-index: 999;
-    background-image: -moz-linear-gradient(41deg, #2e19cc 0%, #5f13dc 40%, #900cec 78%);
-    background-image: -webkit-linear-gradient(41deg, #2e19cc 0%, #5f13dc 40%, #900cec 78%);
+    background-image: -moz-linear-gradient(41deg, #422edd 0%, #131adc 40%, #0c31ec 78%);
+    background-image: -webkit-linear-gradient(41deg, #2e19cc 0%, #1a13dc 40%, #0c0cec 78%);
     align-items: center;
     justify-content: center;
     padding-top: 5%;
@@ -4574,7 +4574,7 @@ html * {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    background-color: #0a1258;
+    background-color: #0616a4;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     position: relative;
     padding: 50px 15px;

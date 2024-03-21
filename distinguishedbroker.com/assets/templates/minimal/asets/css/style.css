@@ -50,8 +50,8 @@ html {
 }
 body {
   font-family: var(--nunito);
-  font-size: 15px;
-  color: #a3a1a9;
+  font-size: 16px;
+  color: black;
   background-color: #fff;
 }
 
@@ -87,7 +87,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #7153d9;
+  color: var(--endeavor);
   margin: 0px;
 }
 
@@ -3389,6 +3389,9 @@ hr {
 }
 
 /* FAQ */
+.flat-faq {
+  font-family: var(--inter);
+}
 .faq {
   margin-top: -20px;
 }

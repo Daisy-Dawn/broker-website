@@ -48,18 +48,11 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-:root {
-  --endeavor: #0359AE; 
-  --tropics: #14B09B; 
-  --sand: #EBE5D9; 
-  --cabana: #CC8A56; 
-}
 body {
   font-family: var(--nunito);
   font-size: 15px;
   color: #a3a1a9;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 img {
@@ -215,6 +208,12 @@ hr {
   line-height: 1.16;
   color: black;
 }
+#home-minititle {
+  color: var(--endeavor);
+}
+#home-title {
+  color: black;
+}
  #service-title {
   color: var(--tropics);
   /* font-weight: 600; */
@@ -254,11 +253,17 @@ hr {
 .section-head .subtitle {
   font-size: 22px;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.9;
   color: var(--cabana);
   text-transform: uppercase;
   letter-spacing: 8px;
+}
+#home-track-title {
+  color: var(--endeavor);
+}
+#home-subtitle {
+  color: var(--endeavor);
 }
 @media only screen and (max-width: 767px) {
   .section-head .subtitle {
@@ -372,7 +377,7 @@ hr {
 .btn-style-one {
   border-color: var(--endeavor);
   background: var(--endeavor);
-  background: linear-gradient(135deg, #1414ce 0%, #1f2dc5 45%, #5753d9 66%);
+  background: linear-gradient(135deg, hsl(210, 97%, 35%) 0%, hsl(210, 79%, 39%) 45%, hsl(210, 73%, 49%) 66%);
   border: 0px;
   border-radius: 27px;
   padding: 20px 45px;
@@ -380,6 +385,13 @@ hr {
   font-size: 16px;
   font-family: var(--poppins);
   position: relative;
+  color: whitesmoke;
+}
+#plan-btn {
+  color: var(--white);
+}
+#plan-btn:hover {
+  color: whitesmoke;
 }
 .btn-style-one:focus {
   box-shadow: none;
@@ -391,8 +403,8 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #253ee0;
-  background: linear-gradient(135deg, #5365d9 0%, #3543be 45%, #2639b1 66%);
+  background: hsl(210, 97%, 35%);
+  background: linear-gradient(135deg, hsl(210, 81%, 46%) 0%, hsl(210, 82%, 37%) 45%, hsl(210, 96%, 28%) 66%);
   opacity: 0;
   transition: 0.5s;
   border-radius: 27px;
@@ -475,7 +487,7 @@ hr {
 }
 
 .btn-style-four {
-  background: #e2c4ff;
+  background: var(--endeavor);
   color: #1c1c1c;
   border-radius: 27px;
   padding: 20px 40px;
@@ -491,9 +503,9 @@ hr {
   box-shadow: none;
 }
 .btn-style-four:hover, .btn-style-four.active {
-  border-color: #4526b1;
-  background: #4526b1;
-  background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+  border-color: var(--endeavor);
+  background: var(--endeavor);
+  background: linear-gradient(135deg, var(--endeavor) 0%, #3004c4 45%, #4d1dfb 66%);
   border: 0px;
   border-radius: 27px;
   padding: 20px 40px;
@@ -775,6 +787,12 @@ hr {
   font-size: 22px;
   font-weight: 500;
 }
+.home-logo-text {
+  color: var(--endeavor);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
 @media only screen and (max-width: 767px) {
   
 }
@@ -938,11 +956,17 @@ hr {
   text-transform: capitalize;
   line-height: 50px;
   cursor: pointer;
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  color: #1c1c1c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--sand);
   position: relative;
   transition: 0.3s;
+}
+#home-nav {
+  color: black;
+}
+#home-nav:hover {
+  color: var(--endeavor);
 }
 .main-menu > ul > li:hover > a {
   color: var(--cabana);
@@ -1175,6 +1199,9 @@ hr {
     2.2 - Slider Style
 ================================ */
 .slingle-slider {
+  background-image: url('../images/slider/bg1.jpeg');
+  background-repeat: no-repeat;
+  object-fit: cover;
   height: 1080px;
   position: relative;
   overflow: hidden;
@@ -1797,7 +1824,7 @@ hr {
 .sliderone-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 60px;
   border-radius: 20px;
-  background-color: #7153d9;
+  background-color: var(--endeavor);
   transition: 0.4s;
 }
 
@@ -2197,7 +2224,7 @@ hr {
   width: 240px;
   height: 240px;
   border-radius: 100%;
-  background: linear-gradient(135deg, #1414ce 0%, #1f2dc5 45%, #5753d9 66%);
+  background: linear-gradient(135deg, hsl(210, 97%, 35%) 0%, hsl(210, 79%, 39%) 45%, hsl(210, 73%, 49%) 66%);
   position: absolute;
   right: 10px;
   bottom: 0;
@@ -2310,7 +2337,7 @@ hr {
   height: 165px;
   width: 165px;
   border-radius: 100%;
-  background: linear-gradient(135deg, #4c2db7 0%, #5e3fc8 45%, #694bd2 66%);
+  background: linear-gradient(135deg, #2a20ba 0%, var(--endeavor) 45%, #4737fb 66%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2339,7 +2366,9 @@ hr {
     height: 100px;
   }
 }
-
+#calculator-bg {
+  background-color: linear-gradient(135deg, #2a20ba 0%, var(--endeavor) 45%, #4737fb 66%);
+}
 .about-accordion {
   margin-top: 30px;
 }
@@ -2548,7 +2577,7 @@ hr {
   margin-bottom: -3rem;
 }
 .funfact .funfact-bg {
-  background-color: #4526b1;
+  background-color: var(--endeavor);
   position: relative;
   padding: 145px 0;
   border-radius: 0 20px 20px 0;
@@ -2574,7 +2603,7 @@ hr {
   }
 }
 .funfact .funfact-bg::after {
-  background-color: #4526b1;
+  background-color: var(--endeavor);
   content: "";
   height: 100%;
   right: 98%;
@@ -2883,7 +2912,7 @@ hr {
   background-color: white;
   box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
   padding: 1.875rem;
-  border-top: 5px solid #4526b1;
+  border-top: 5px solid var(--endeavor);
   border-radius: 0 0 20px 20px;
   z-index: 1;
   min-height: 26rem;
@@ -2948,7 +2977,7 @@ hr {
 .single-service .readmore-btn:hover {
   padding-left: 10px;
   transition: 0.3s;
-  color: #4526b1;
+  color: var(--endeavor);
 }
 
 .process-section {
@@ -3160,6 +3189,7 @@ hr {
 /* Service Two */
 .service-two {
   position: relative;
+  background: var(--white);
 }
 .service-two .section-head {
   margin-bottom: 90px;
@@ -3257,8 +3287,9 @@ hr {
 /* PRICING */
 .pricing-single {
   /* padding: 60px; */
-  padding: 1rem;
-  border: 1px solid #cacdd3;
+  padding: 2rem;
+  /* background-color: var(--endeavor); */
+  border: 1px solid var(--endeavor);
   border-radius: 20px;
   height: fit-content;
   min-height: 42rem;
@@ -3277,7 +3308,7 @@ hr {
 .pricing-head {
   padding-bottom: 35px;
   margin-bottom: 35px;
-  border-bottom: 1px solid #cacdd3;
+  border-bottom: 1px solid var(--endeavor);
 }
 .pricing-head .title {
   font-size: 1.5rem;
@@ -3302,7 +3333,7 @@ hr {
   font-family: var(--poppins);
   font-weight: 500;
   line-height: 1.16;
-  color: #7153d9;
+  color: var(--endeavor);
   margin-right: 12px;
 }
 @media only screen and (max-width: 767px) {
@@ -3485,11 +3516,14 @@ hr {
     2.6 - Progress Style
 ================================ */
 .progress-section {
-  background-color: #f2f5fb;
+  background-color: #eef2f6;
   overflow: hidden;
 }
 .progress-section .section-head {
   margin-right: 100px;
+}
+#progress-title {
+  color: var(--endeavor);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .progress-section .section-head {
@@ -3538,13 +3572,13 @@ hr {
 .progress-section .progress-bar {
   overflow: visible;
   height: 13px;
-  background-color: #7153d9;
+  background-color: var(--endeavor);
   border-radius: 10px;
 }
 .progress-section .progress-number {
   position: absolute;
   right: -70px;
-  color: #7153d9;
+  color: var(--endeavor);
   font-size: 21px;
   font-weight: 500;
   top: 50%;
@@ -6691,6 +6725,18 @@ hr {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
+#plan-title {
+  color: var(--endeavor);
+}
+#plan-number {
+  color: var(--cabana);
+}
+#plan-pricing{
+  color: black;
+}
+#plan-pricing-title {
+  color: var(--cabana);
+}
 .single-plan-head .number {
   font-family: var(--poppins);
   font-size: 16px;
@@ -6737,7 +6783,7 @@ hr {
         2.12 - Footer Style
 ================================ */
 .footer-wrapper {
-  background-color: var(--sand);
+  background-color: #eef2f6;
   margin-top: 70px;
   position: relative;
   padding-top: 145px;
